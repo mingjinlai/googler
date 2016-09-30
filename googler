@@ -499,7 +499,7 @@ class GoogleUrl(object):
         try:
             return 'www.' + self.TLD_TO_DOMAIN_MAP[self._tld]
         except KeyError:
-            return 'www.google.com'
+            return 'https://www.google.com'
 
     @property
     def query(self):
